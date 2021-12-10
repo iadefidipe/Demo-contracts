@@ -9,11 +9,11 @@ contract Inbox { // contract declaration: see this as class in JS, when it is de
         message = initialMessage;
     }
 
-    function setMessage(string newMessage) public {
+    function setMessage(string newMessage) public { // a function that attempts to modify our contract data doesnt return a value
         message = newMessage;
     }
 
-    function getMessage() public view returns (string) {
+    function getMessage() public view returns (string) { // only functions that is specified view or constant are able to return a value
         return message;
     }
 }
