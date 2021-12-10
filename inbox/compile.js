@@ -1,4 +1,4 @@
-const path = require('path') // (standard node lib) this path module is going to help us build a path/ directory path from compile.js to our solidity code, the reason we are using the path module instead of just writing the path direct is that we are guranteed to get cross platfrom compatibility
+const path = require('path') // (standard node lib) this path module is going to help us build a path/ directory path from compile.js to our solidity code, the reason we are using the path module instead of just writing the path direct is that we are guranted to get cross platfrom compatibility
 const fs = require('fs') // (standard node lib) file system module
 const solc = require('solc')
 
